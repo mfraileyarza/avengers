@@ -2,3 +2,4 @@
 
 * Joker
 * Pingüino
+* Bane
