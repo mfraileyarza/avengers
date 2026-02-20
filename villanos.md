@@ -2,4 +2,4 @@
 
 * Joker
 * Pingüino
-* Bane
+* Capitan America
