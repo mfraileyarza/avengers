@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - MANU</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            font-style: italic;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        section {
+            background: white;
+            margin: 30px 0;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .skill-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+        
+        .skill-item {
+            background: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        .contact-links {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .contact-links a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        
+        .contact-links a:hover {
+            background: #764ba2;
+        }
+        
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MANU</h1>
+        <p>Desarrollador | Apasionado por la programación</p>
+    </header>
+    
+    <div class="container">
+        <section>
+            <h2>Sobre mí</h2>
+            <p>Soy un desarrollador con entusiasmo por aprender nuevas tecnologías. Actualmente estoy formándome en GIT y otras herramientas modernas de desarrollo. Me encanta crear soluciones eficientes y trabajar en proyectos desafiantes.</p>
+        </section>
+        
+        <section>
+            <h2>Habilidades</h2>
+            <div class="skill-list">
+                <div class="skill-item">HTML5</div>
+                <div class="skill-item">CSS3</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">GIT</div>
+                <div class="skill-item">Resolución de problemas</div>
+                <div class="skill-item">Trabajo en equipo</div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Contacto</h2>
+            <p>¡Me encantaría conectar contigo! Puedes encontrarme en:</p>
+            <div class="contact-links">
+                <a href="mailto:manu@example.com">Email</a>
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 MANU. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
